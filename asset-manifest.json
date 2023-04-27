@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/pizza-event/static/css/main.d8511975.css",
+    "main.js": "/pizza-event/static/js/main.5c4ed055.js",
+    "static/media/photo1.png": "/pizza-event/static/media/photo1.fc3e1cef00e7d99aedcd.png",
+    "static/media/photo3.png": "/pizza-event/static/media/photo3.8d94f980249aaeadc1e5.png",
+    "static/media/photo2.png": "/pizza-event/static/media/photo2.47295358b32a4feefb68.png",
+    "static/media/background.png": "/pizza-event/static/media/background.68f25da32f163746d392.png",
+    "static/media/photo4.png": "/pizza-event/static/media/photo4.ff834aaa8525d5fda8af.png",
+    "static/media/pizza.png": "/pizza-event/static/media/pizza.36f12681bd1392381408.png",
+    "static/media/back.png": "/pizza-event/static/media/back.4964d1357ef3574a2a2b.png",
+    "static/media/pizza2.png": "/pizza-event/static/media/pizza2.98a781103c3c6a0d801a.png",
+    "static/media/pizza1.png": "/pizza-event/static/media/pizza1.9c3b1dc1e0349196fbfd.png",
+    "static/media/sad.png": "/pizza-event/static/media/sad.667651746dab06bb6587.png",
+    "static/media/happy.png": "/pizza-event/static/media/happy.1dfd5474c140e88f6d37.png",
+    "static/media/cooking.png": "/pizza-event/static/media/cooking.343efc60b8b70dd39875.png",
+    "index.html": "/pizza-event/index.html",
+    "main.d8511975.css.map": "/pizza-event/static/css/main.d8511975.css.map",
+    "main.5c4ed055.js.map": "/pizza-event/static/js/main.5c4ed055.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8511975.css",
+    "static/js/main.5c4ed055.js"
+  ]
+}
