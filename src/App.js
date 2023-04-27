@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import { AuthProvider } from "./components/AuthContext";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import MainPage from "./components/MainPage";
+import "./styles/mainFile.css";
+import LoginComponent from "./components/LoginComponent";
+import RegisterComponent from "./components/RegisterComponent";
+import ForgotPassword from "./components/ForgotPassword";
+import Dashboard from "./components/Dashboard";
+import SignupComponent from "./components/SignupComponent";
+import Participans from "./components/Participans";
+import LearnMore from "./components/LearnMore";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <AuthProvider>
+        <BrowserRouter>
+          <Routes>
+            <Route exact path="/" element={<MainPage />} />
+            <Route path="/login" element={<LoginComponent />} />
+            <Route path="/register" element={<RegisterComponent />} />
+            <Route path="/forgot-password" element={<ForgotPassword />} />
+            <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/dashboard/signup" element={<SignupComponent />} />
+            <Route path="/dashboard/participans" element={<Participans />} />
+            <Route path="/dashboard/learn-more" element={<LearnMore />} />
+          </Routes>
+        </BrowserRouter>
+      </AuthProvider>
     </div>
   );
 }

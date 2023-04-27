@@ -1,0 +1,89 @@
+.signup-form {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+.signup-form form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.signup-form form .form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+}
+@media only screen and (max-width: 540px) {
+  .signup-form form .form {
+    width: 300px;
+  }
+}
+.signup-form form .form label {
+  font-size: 1.5em;
+  text-align: center;
+  color: #6a3e01;
+  margin-bottom: 10px;
+}
+@media only screen and (max-width: 540px) {
+  .signup-form form .form label {
+    font-size: 1.3em;
+    width: 250px;
+  }
+}
+.signup-form form .form select {
+  width: 318px;
+  height: 50px;
+  border-radius: 20px;
+  font-size: 1.5em;
+  border: 3px solid #6a3e01;
+  background-color: #f1be7c;
+  color: #6a3e01;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+@media only screen and (max-width: 540px) {
+  .signup-form form .form select {
+    width: 268px;
+  }
+}
+.signup-form form .form input {
+  width: 300px;
+  height: 42px;
+  border-radius: 20px;
+  font-size: 1.5em;
+  border: 3px solid #6a3e01;
+  background-color: #f1be7c;
+  color: #6a3e01;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+@media only screen and (max-width: 540px) {
+  .signup-form form .form input {
+    width: 250px;
+    font-size: 1.3em;
+  }
+}
+.signup-form form .form button {
+  margin-top: 15px;
+  width: 320px;
+  height: 50px;
+  border-radius: 20px;
+  font-size: 1.5em;
+  font-weight: bold;
+  cursor: pointer;
+  border: 3px solid #f1be7c;
+  background-color: #6a3e01;
+  color: #f1be7c;
+}
+.signup-form form .form button:hover, .signup-form form .form button:focus {
+  border: 3px solid #6a3e01;
+  background-color: #f1be7c;
+  color: #6a3e01;
+}
+@media only screen and (max-width: 540px) {
+  .signup-form form .form button {
+    width: 270px;
+  }
+}/*# sourceMappingURL=signupForm.css.map */

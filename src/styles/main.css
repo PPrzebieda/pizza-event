@@ -1,0 +1,100 @@
+.mainpage-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+}
+.mainpage-section .mainpage-container {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #f1d0a5;
+  border: 3px solid #6a3e01;
+  display: flex;
+  border-radius: 20px;
+  align-items: center;
+  flex-direction: column;
+}
+.mainpage-section .mainpage-container .photos {
+  width: 500px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  border: 3px solid #6a3e01;
+}
+@media only screen and (max-width: 768px) {
+  .mainpage-section .mainpage-container .photos {
+    width: 300px;
+  }
+}
+.mainpage-section .mainpage-container img {
+  width: 30px;
+  margin: 0px 30px 0px 30px;
+}
+@media only screen and (max-width: 500px) {
+  .mainpage-section .mainpage-container img {
+    width: 15px;
+    margin: 0px 15px 0px 15px;
+  }
+}
+.mainpage-section .mainpage-container h1 {
+  background-color: #f1be7c;
+  color: #6a3e01;
+  width: 100%;
+  text-align: center;
+  margin-top: 0px;
+  padding: 20px 0px 20px 0px;
+  border-radius: 20px 20px 0px 0px;
+  border-bottom: 3px solid #6a3e01;
+}
+@media only screen and (max-width: 768px) {
+  .mainpage-section .mainpage-container h1 {
+    font-size: 1.5em;
+  }
+}
+.mainpage-section .mainpage-container p {
+  padding: 20px 40px 0px 40px;
+  font-size: 1.5em;
+  text-align: justify;
+  color: #6a3e01;
+  margin: 0px 0px 50px 0px;
+}
+@media only screen and (max-width: 768px) {
+  .mainpage-section .mainpage-container p {
+    font-size: 1.2em;
+  }
+}
+.mainpage-section .mainpage-container .buttons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+.mainpage-section .mainpage-container .buttons button {
+  width: 250px;
+  height: 50px;
+  border-radius: 20px;
+  font-size: 1.5em;
+  font-weight: bold;
+  cursor: pointer;
+}
+.mainpage-section .mainpage-container .buttons .login {
+  border: 3px solid #6a3e01;
+  background-color: #f1be7c;
+  color: #6a3e01;
+}
+.mainpage-section .mainpage-container .buttons .login:hover, .mainpage-section .mainpage-container .buttons .login:focus {
+  border: 3px solid #f1be7c;
+  background-color: #6a3e01;
+  color: #f1be7c;
+}
+.mainpage-section .mainpage-container .buttons .register {
+  border: 3px solid #f1be7c;
+  background-color: #6a3e01;
+  color: #f1be7c;
+}
+.mainpage-section .mainpage-container .buttons .register:hover, .mainpage-section .mainpage-container .buttons .register:focus {
+  border: 3px solid #6a3e01;
+  background-color: #f1be7c;
+  color: #6a3e01;
+}/*# sourceMappingURL=main.css.map */
