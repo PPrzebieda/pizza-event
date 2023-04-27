@@ -1,5 +1,5 @@
 import { AuthProvider } from "./components/AuthContext";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import MainPage from "./components/MainPage";
 import "./styles/mainFile.css";
 import LoginComponent from "./components/LoginComponent";
@@ -14,9 +14,10 @@ function App() {
   return (
     <div className="App">
       <AuthProvider>
-        <BrowserRouter>
+        <HashRouter>
           <Routes>
             <Route exact path="/" element={<MainPage />} />
+            <Route path="/pizza-event" element={<MainPage />} />
             <Route path="/login" element={<LoginComponent />} />
             <Route path="/register" element={<RegisterComponent />} />
             <Route path="/forgot-password" element={<ForgotPassword />} />
@@ -25,7 +26,7 @@ function App() {
             <Route path="/dashboard/participans" element={<Participans />} />
             <Route path="/dashboard/learn-more" element={<LearnMore />} />
           </Routes>
-        </BrowserRouter>
+        </HashRouter>
       </AuthProvider>
     </div>
   );
