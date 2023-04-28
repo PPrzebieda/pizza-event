@@ -1,6 +1,6 @@
 # Pizza Event
 
-React application with SCSS styles and Firebase authentication
+React application with SCSS styles and Firebase authentication.
 
 ## Description:
 
