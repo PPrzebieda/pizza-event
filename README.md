@@ -14,6 +14,7 @@ You can check live demo at: https://pprzebieda.github.io/pizza-event/
 
 + ReactJS
 + SCSS
++ Firebase
 
 ## Features:
 + Firebase authentication
