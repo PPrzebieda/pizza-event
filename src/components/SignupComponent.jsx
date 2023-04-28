@@ -68,7 +68,7 @@ export default function SignupComponent() {
           <div className="dashboard-bar">
             <Link to="/dashboard" className="link">
               <h1>
-                <img src={back} />
+                <img src={back} alt="back button" />
                 Go back to main menu
               </h1>
             </Link>
@@ -77,9 +77,9 @@ export default function SignupComponent() {
           <h1>To attend the Pizza Event complete the form</h1>
           {msg && (
             <alert className="alert">
-              <img src={pizzaIco} />
+              <img src={pizzaIco} alt="pizza icon" />
               {msg}
-              <img src={pizzaIco} />
+              <img src={pizzaIco} alt="pizza icon" />
             </alert>
           )}
           <div className="signup-form">
@@ -188,7 +188,7 @@ export default function SignupComponent() {
           <div className="dashboard-bar">
             <Link to="/dashboard" className="link">
               <h1>
-                <img src={back} />
+                <img src={back} alt="back button" />
                 Go back to main menu
               </h1>
             </Link>
@@ -215,11 +215,12 @@ export default function SignupComponent() {
             </h3>
             <div className="btns">
               <button onClick={handleClick2} className="backbtn">
-                <img src={back} /> I want to correct my information
+                <img src={back} alt="back button" /> I want to correct my
+                information
               </button>
               <button onClick={handleClick1} className="submitbtn">
                 Information are correct, I want to register!
-                <img src={pizzaIco} />
+                <img src={pizzaIco} alt="pizza icon" />
               </button>
             </div>
           </div>

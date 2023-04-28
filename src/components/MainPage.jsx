@@ -8,9 +8,9 @@ export default function MainPage() {
     <div className="mainpage-section">
       <div className="mainpage-container">
         <h1>
-          <img src={pizzaIco} />
+          <img src={pizzaIco} alt="pizza icon" />
           Welcome to Pizza Event!
-          <img src={pizzaIco} />
+          <img src={pizzaIco} alt="pizza icon" />
         </h1>
         <p>
           Welcome to the official website of the "Pizza Event" - an event that
@@ -20,7 +20,7 @@ export default function MainPage() {
           have the opportunity to try different types of pizza, prepared by the
           best chefs in the city.
         </p>
-        <img src={photo1} className="photos" />
+        <img src={photo1} className="photos" alt="event photo" />
         <p>
           {" "}
           It will be an ideal opportunity to learn new flavors and talk to other

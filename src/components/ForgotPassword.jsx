@@ -26,9 +26,9 @@ export default function ForgotPassword() {
       <div className="authentication-section">
         <div className="authentication-container">
           <h1>
-            <img src={pizzaIco} />
+            <img src={pizzaIco} alt="pizza icon" />
             Forgot password
-            <img src={pizzaIco} />
+            <img src={pizzaIco} alt="pizza icon" />
           </h1>
           {error && <alert className="alert">{error}</alert>}
           {message && <alert className="alert">{message}</alert>}

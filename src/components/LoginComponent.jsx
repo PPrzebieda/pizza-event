@@ -57,9 +57,9 @@ export default function LoginComponent() {
       <div className="authentication-section">
         <div className="authentication-container">
           <h1>
-            <img src={pizzaIco} />
+            <img src={pizzaIco} alt="pizza icon" />
             Log In
-            <img src={pizzaIco} />
+            <img src={pizzaIco} alt="pizza icon" />
           </h1>
           {error && <alert className="alert">{error}</alert>}
           <form onSubmit={handleSubmit}>

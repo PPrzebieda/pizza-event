@@ -26,7 +26,7 @@ export default function Dashboard() {
       <div className="dashboard-container">
         <div className="dashboard-bar">
           <h1>
-            <img src={pizzaIco} />
+            <img src={pizzaIco} alt="pizza icon" />
             Welcome! You are logged in as: {currentUser.email}
           </h1>
           <button onClick={handleLogout}>Log out</button>
@@ -35,7 +35,7 @@ export default function Dashboard() {
         <div className="action-boxes">
           <div className="action">
             <h2>Sign up for Pizza Event</h2>
-            <img src={pizza1} />
+            <img src={pizza1} alt="Sign up icon" />
             <p>
               Sign up for Pizza Event: Join a unique event for pizza lovers and
               be part of a community of people who love this Italian dish.
@@ -47,7 +47,7 @@ export default function Dashboard() {
           </div>
           <div className="action">
             <h2>See who else will participate</h2>
-            <img src={cooking} />
+            <img src={cooking} alt="Others icon" />
             <p>
               Meet other pizza lovers who will attend the event. You can see
               what their favorite pizza is and their role in the Pizza Event.
@@ -59,7 +59,7 @@ export default function Dashboard() {
           </div>
           <div className="action">
             <h2>Learn more about the Pizza Event</h2>
-            <img src={pizza2} />
+            <img src={pizza2} alt="learn more icon" />
             <p>
               Check out the event highlights and organizer information on our
               website. If you have any questions, please contact us. We look

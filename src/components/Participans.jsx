@@ -34,7 +34,12 @@ export default function Participans() {
               {user.name} {user.surname},{" "}
             </strong>{" "}
             {user.role}, Favourite pizza: <strong> {user.fav}</strong>. Want
-            information? {user.info ? <img src={happy} /> : <img src={sad} />}
+            information?{" "}
+            {user.info ? (
+              <img src={happy} alt="happy pizza" />
+            ) : (
+              <img src={sad} alt="sad pizza" />
+            )}
           </p>
         </li>
       );
@@ -45,7 +50,7 @@ export default function Participans() {
         <div className="dashboard-bar">
           <Link to="/dashboard" className="link">
             <h1>
-              <img src={back} />
+              <img src={back} alt="back button" />
               Go back to main menu
             </h1>
           </Link>
@@ -54,7 +59,7 @@ export default function Participans() {
         <h1>Meet other pizza lovers who will participate in the Pizza Event</h1>
         {initial === false ? (
           <h2>
-            Currently no users registered <img src={sad} />
+            Currently no users registered <img src={sad} alt="big sad pizza" />
           </h2>
         ) : (
           <ul>{users.map((user, id) => handleUl(user, id))}</ul>
