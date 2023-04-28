@@ -4,7 +4,7 @@ React application with SCSS styles and Firebase authentication
 
 ## Description:
 
-"Pizza Event" to aplikacja służąca do zapisów na wydarzenie dla miłośników pizzy. Użytkownik ma możliwość założenia konta oraz zalogowania się na nie. Authentication is performed by Firebase. Kolejno uwierzytelniony użytkownik ma możliwość zapisania się na wydarzenie poprzez formularz zgłoszeniowy. Przed wysłaniem formularza użytkownik ma możliwość powrotu do poprzedniego widoku i poprawy wpisanych danych. Dane użytkowników przechowywane są w local storage. W aplikacji dostępna jest również lista zapisanych użytkowników. To run application locally in terminal type `npm start` and open [http://localhost:3000/pizza-event](http://localhost:3000/pizza-event) to view it in your browser.
+"Pizza Event" is an application used to sign up for an event for pizza lovers. The user can create an account and log in to it. Authentication is performed by Firebase. Subsequently, the authenticated user has the option to sign up for the event through the submission form. Before submitting the form, the user has the option to return to the previous view and correct the entered data. User data is stored in local storage. A list of enrolled users is also available in the application. The application is written for mobile and desktop users. To run application locally in terminal type `npm start` and open [http://localhost:3000/pizza-event](http://localhost:3000/pizza-event) to view it in your browser.
 
 ## Live demo:
 
