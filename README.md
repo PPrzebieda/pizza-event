@@ -10,6 +10,8 @@ React application with SCSS styles and Firebase authentication.
 
 You can check live demo at: https://pprzebieda.github.io/pizza-event/
 
+(You can use: test@test.com / test11)
+
 ## Build with:
 
 + ReactJS
